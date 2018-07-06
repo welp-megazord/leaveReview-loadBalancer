@@ -1,0 +1,6 @@
+version: '3'
+services:
+  load-balance:
+    image: load-balance
+    ports: 
+      - 8080:8080
